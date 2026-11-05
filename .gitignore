@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Datasets (large external benchmark files & cloned repos)
+datasets/*
+!datasets/README.md
+!datasets/ieee_dataport_side_channel/
+datasets/ieee_dataport_side_channel/*
+!datasets/ieee_dataport_side_channel/README.md
+!datasets/ieee_dataport_side_channel/download_dataset.py
+
+# Caches and temporary data
+data_cache/
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log

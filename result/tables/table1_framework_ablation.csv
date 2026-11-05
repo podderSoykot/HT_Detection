@@ -1,0 +1,20 @@
+Performance Evaluation Metric,Baseline 1: Circuit Graph (GNN),Baseline 2: Side-Channel (Power/EM),Proposed: Multi-Modal Gated Fusion
+Accuracy (%),87.5,98.75,98.75
+Balanced Accuracy (%),87.5,98.75,98.75
+Precision (PPV) (%),81.25,97.56,97.56
+Recall / Sensitivity (%),97.5,100,100
+Specificity (TNR) (%),77.5,97.5,97.5
+F1-Score,0.8864,0.9877,0.9877
+Matthews Corr (MCC),0.7655,0.9753,0.9753
+Cohen's Kappa,0.75,0.975,0.975
+Youden's J-Index,0.75,0.975,0.975
+False Alarm Rate (FAR) (%),22.5,2.5,2.5
+Miss Rate (FNR) (%),2.5,0,0
+False Discovery Rate (%),18.75,2.44,2.44
+Negative Pred Value (NPV) (%),96.87,100,100
+ROC-AUC,0.8844,0.9969,1
+PR-AUC (Avg Precision),0.8944,0.9967,1
+Brier Calibration Loss,0.1236,0.0249,0.0153
+Cross-Entropy Log-Loss,0,0,0
+Inference Latency (ms),5.958,0.001,6.007
+Model Parameters,24676,34,135235

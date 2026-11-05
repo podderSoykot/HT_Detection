@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1012.0379999999998 965.8999999999999" width="1012.0379999999998" height="965.8999999999999" style="--bg:#FFFFFF;--fg:#1E293B;--line:#64748B;--muted:#475569;--surface:#F8FAFC;--border:#CBD5E1;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="IP" data-to="MFE" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="486.98086666666654,76.9 486.98086666666654,124.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MFE" data-to="B1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="486.98086666666654,161.8 486.98086666666654,191.8 144.33749999999998,191.8 144.33749999999998,221.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MFE" data-to="B2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="486.98086666666654,161.8 486.98086666666654,191.8 375.8254999999999,191.8 375.8254999999999,221.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MFE" data-to="B3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="486.98086666666654,161.8 486.98086666666654,191.8 609.1659999999998,191.8 609.1659999999998,221.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MFE" data-to="B4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="486.98086666666654,161.8 486.98086666666654,191.8 857.6969999999999,191.8 857.6969999999999,221.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B1" data-to="FE" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="144.33749999999998,258.70000000000005 144.33749999999998,276.70000000000005 492.49574999999993,276.70000000000005 492.49574999999993,294.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B2" data-to="FE" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="375.8254999999999,258.70000000000005 375.8254999999999,276.70000000000005 492.49574999999993,276.70000000000005 492.49574999999993,294.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B3" data-to="FE" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="609.1659999999998,258.70000000000005 609.1659999999998,276.70000000000005 492.49574999999993,276.70000000000005 492.49574999999993,294.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B4" data-to="FE" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="857.6969999999999,258.70000000000005 857.6969999999999,276.70000000000005 492.49574999999993,276.70000000000005 492.49574999999993,294.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="FE" data-to="MMF" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="492.49574999999993,331.6 492.4957499999999,379.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MMF" data-to="DLM" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="492.4957499999999,416.5 492.49574999999993,464.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DLM" data-to="KTD" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="492.49574999999993,501.4 492.49574999999993,525.4 370.6384999999999,525.4 370.6384999999999,549.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DLM" data-to="UTD" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="492.49574999999993,501.4 492.49574999999993,525.4 614.3529999999998,525.4 614.3529999999998,549.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="KTD" data-to="TL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="370.6384999999999,586.3 370.6384999999999,610.3 492.49574999999993,610.3 492.49574999999993,634.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="UTD" data-to="TL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="614.3529999999998,586.3 614.3529999999998,610.3 492.49574999999993,610.3 492.49574999999993,634.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TL" data-to="XAI" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="492.49574999999993,671.1999999999999 492.49574999999993,719.1999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="XAI" data-to="TWA" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="492.49574999999993,756.0999999999999 492.49574999999993,804.0999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TWA" data-to="SRS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="492.49574999999993,840.9999999999999 492.49574999999993,888.9999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="IP" data-label="Third-Party IP" data-shape="rectangle">
+  <rect x="424.50986666666654" y="40" width="124.94200000000001" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="486.98086666666654" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Third-Party IP</text>
+</g>
+<g class="node" data-id="MFE" data-label="Multi-Modal Feature Extraction" data-shape="rectangle">
+  <rect x="375.9743666666666" y="124.9" width="222.01299999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="486.98086666666654" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Multi-Modal Feature Extraction</text>
+</g>
+<g class="node" data-id="B1" data-label="RTL / Source Code Analysis" data-shape="rectangle">
+  <rect x="40" y="221.8" width="208.67499999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="144.33749999999998" y="240.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">RTL / Source Code Analysis</text>
+</g>
+<g class="node" data-id="B2" data-label="Gate-Level Netlist Analysis" data-shape="rectangle">
+  <rect x="276.67499999999995" y="221.8" width="198.301" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="375.8254999999999" y="240.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Gate-Level Netlist Analysis</text>
+</g>
+<g class="node" data-id="B3" data-label="Circuit Graph Representation" data-shape="rectangle">
+  <rect x="502.9759999999999" y="221.8" width="212.37999999999994" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="609.1659999999998" y="240.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Circuit Graph Representation</text>
+</g>
+<g class="node" data-id="B4" data-label="Behavioral / Simulation Analysis" data-shape="rectangle">
+  <rect x="743.3559999999999" y="221.8" width="228.68199999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="857.6969999999999" y="240.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Behavioral / Simulation Analysis</text>
+</g>
+<g class="node" data-id="FE" data-label="Feature Encoding" data-shape="rectangle">
+  <rect x="418.5392499999999" y="294.70000000000005" width="147.91299999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="492.49574999999993" y="313.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Feature Encoding</text>
+</g>
+<g class="node" data-id="MMF" data-label="Multi-Modal Feature Fusion" data-shape="rectangle">
+  <rect x="391.1222499999999" y="379.6" width="202.74699999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="492.4957499999999" y="398.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Multi-Modal Feature Fusion</text>
+</g>
+<g class="node" data-id="DLM" data-label="Deep Learning-Based Detection Model" data-shape="rectangle">
+  <rect x="358.51824999999997" y="464.5" width="267.9549999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="492.49574999999993" y="482.95" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Deep Learning-Based Detection Model</text>
+</g>
+<g class="node" data-id="KTD" data-label="Known Trojan Detection" data-shape="rectangle">
+  <rect x="280.00949999999995" y="549.4" width="181.25799999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="370.6384999999999" y="567.85" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Known Trojan Detection</text>
+</g>
+<g class="node" data-id="UTD" data-label="Unknown / Unseen Trojan Detection" data-shape="rectangle">
+  <rect x="489.2674999999999" y="549.4" width="250.17099999999994" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="614.3529999999998" y="567.85" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Unknown / Unseen Trojan Detection</text>
+</g>
+<g class="node" data-id="TL" data-label="Trojan Localization" data-shape="rectangle">
+  <rect x="414.0932499999999" y="634.3" width="156.805" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="492.49574999999993" y="652.75" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Trojan Localization</text>
+</g>
+<g class="node" data-id="XAI" data-label="Explainable Security Analysis" data-shape="rectangle">
+  <rect x="383.34174999999993" y="719.1999999999999" width="218.30799999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="492.49574999999993" y="737.65" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Explainable Security Analysis</text>
+</g>
+<g class="node" data-id="TWA" data-label="IP Trustworthiness Assessment" data-shape="rectangle">
+  <rect x="378.1547499999999" y="804.0999999999999" width="228.68199999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="492.49574999999993" y="822.55" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">IP Trustworthiness Assessment</text>
+</g>
+<g class="node" data-id="SRS" data-label="Security Risk Score" data-shape="rectangle">
+  <rect x="412.24074999999993" y="888.9999999999999" width="160.51" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="492.49574999999993" y="907.4499999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Security Risk Score</text>
+</g>
+<g class="node" data-id="class" data-label="class" data-shape="rectangle">
+  <rect x="577.4518666666665" y="40" width="74.554" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="614.7288666666666" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">class</text>
+</g>
+</svg>

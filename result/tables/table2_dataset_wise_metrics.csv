@@ -1,0 +1,20 @@
+Performance Evaluation Metric,Fast-Accurate ISCAS HT Suite (49 circuits),Trust-Hub AES Flagship Suite (30 circuits),Overall Multi-Modal Suite (80 circuits)
+Accuracy (%),100,100,98.75
+Balanced Accuracy (%),100,100,98.75
+Precision (PPV) (%),100,100,97.56
+Recall / Sensitivity (%),100,100,100
+Specificity (TNR) (%),100,100,97.5
+F1-Score,1,1,0.9877
+Matthews Corr (MCC),1,1,0.9753
+Cohen's Kappa,1,1,0.975
+Youden's J-Index,1,1,0.975
+False Alarm Rate (FAR) (%),0,0,2.5
+Miss Rate (FNR) (%),0,0,0
+False Discovery Rate (%),0,0,2.44
+Negative Pred Value (NPV) (%),100,100,100
+ROC-AUC,1,1,1
+PR-AUC (Avg Precision),1,1,1
+Brier Calibration Loss,0.0126,0.0064,0.0153
+Cross-Entropy Log-Loss,0,0,0
+Inference Latency (ms),6.081,1.877,6.007
+Model Parameters,135235,135235,135235
